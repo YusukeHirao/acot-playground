@@ -1,0 +1,20 @@
+{
+  "name": "acot-playground",
+  "version": "1.0.0",
+  "main": "index.js",
+  "license": "MIT",
+  "private": true,
+  "scripts": {
+    "start": "http-server -p 3000",
+    "test": "acot run"
+  },
+  "devDependencies": {
+    "@acot/acot-config": "^0.0.8",
+    "@acot/cli": "^0.0.8",
+    "http-server": "^0.12.3",
+    "puppeteer": "^8.0.0"
+  },
+  "dependencies": {
+    "@acot/core": "^0.0.7"
+  }
+}
